@@ -18,7 +18,7 @@ int main() {
             count++;
         }
     }
-    double c = b/count;
+    float c = b/count;
 
     printf("%d %.1f", a,c);
     
