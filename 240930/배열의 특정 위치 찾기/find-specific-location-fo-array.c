@@ -6,6 +6,7 @@ int main() {
     int a=0;
     int b=0;
     int count=0;
+
     for(int i=0; i<10; i++){
         scanf("%d", &arr[i]);
     }
@@ -18,9 +19,11 @@ int main() {
             count++;
         }
     }
-    float c = b/count;
 
-    printf("%d %.1f", a,c);
+    float avg = 0;
+    avg = b/count;
+
+    printf("%d %.1f", a,avg);
     
     return 0;
 }
