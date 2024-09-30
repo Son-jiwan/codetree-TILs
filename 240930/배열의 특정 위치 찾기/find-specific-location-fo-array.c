@@ -20,10 +20,10 @@ int main() {
         }
     }
 
-    float avg = 0;
-    avg = b/count;
+    double avg = 0;
+    avg = (double)b/count;
 
-    printf("%d %.1f", a,avg);
+    printf("%d %.1lf", a,avg);
     
     return 0;
 }
